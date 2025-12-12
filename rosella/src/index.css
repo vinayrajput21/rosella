@@ -26,7 +26,6 @@ html {
     animation: shine 3s linear infinite;
 }
 
-/* Custom utility for the Hero animation (was an inline class) */
 .animate-fade-in-up {
   opacity: 0;
   animation: fadeInUp 1s ease-out forwards;

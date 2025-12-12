@@ -15,12 +15,12 @@ const ReviewsSection = () => {
                 <div className="grid md:grid-cols-3 gap-8">
                     {reviews.map((review, index) => (
                         <div key={index} className="bg-white p-8 rounded-[2rem] relative shadow-[0_10px_40px_-10px_rgba(219,39,119,0.1)] hover:translate-y-[-5px] transition-transform duration-300 border border-secondary/5">
-                            <div className="absolute -top-5 -right-5 size-12 bg-gradient-to-br from-primary to-[#c48b4e] rounded-full flex items-center justify-center text-white shadow-lg">
+                            <div className="absolute -top-5 -right-5 size-12 bg-gradient-to-br from-[#dfa668] to-[#c48b4e] rounded-full flex items-center justify-center text-white shadow-lg">
                                 <span className="material-symbols-outlined" style={{ fontSize: '24px' }}>format_quote</span>
                             </div>
                             <p className="text-text-light mb-8 italic leading-relaxed">"{review.quote}"</p>
                             <div className="flex items-center gap-4">
-                                <div className="p-1 rounded-full border border-primary/30">
+                                <div className="p-1 rounded-full border border-[#dfa668]/30">
                                     <img className="size-14 rounded-full object-cover" alt={review.alt} src={review.src} />
                                 </div>
                                 <div>

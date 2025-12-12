@@ -14,7 +14,7 @@ const GallerySection = () => {
             <div className="max-w-[1200px] mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-10 gap-4">
                     <div>
-                        <span className="text-primary text-sm font-bold uppercase tracking-widest mb-1 block">Visual Poetry</span>
+                        <span className="text-[#dfa668] text-sm font-bold uppercase tracking-widest mb-1 block">Visual Poetry</span>
                         <h2 className="text-4xl font-serif font-bold text-text-main">Captured Moments</h2>
                         <p className="text-text-light mt-2 max-w-md">Glimpses of real weddings and events at Rosella, where every corner is a photo opportunity.</p>
                     </div>

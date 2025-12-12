@@ -12,7 +12,7 @@ const AboutSection = () => {
     return (
         <section className="py-16 md:py-24 relative overflow-hidden" id="about">
             <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-secondary/5 rounded-full blur-3xl -z-10"></div>
-            <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -z-10"></div>
+            <div className="absolute top-0 right-0 w-96 h-96 bg-[#dfa668]/5 rounded-full blur-3xl -z-10"></div>
             <div className="max-w-[1200px] mx-auto px-4 grid md:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
                     <h2 className="text-4xl md:text-6xl font-serif font-bold text-text-main leading-tight">
@@ -43,10 +43,10 @@ const AboutSection = () => {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-secondary/20 to-transparent mix-blend-overlay"></div>
                     </div>
-                    <div className="absolute top-8 -right-8 w-full h-full rounded-[3rem] border-2 border-primary/40 -z-10 hidden md:block"></div>
+                    <div className="absolute top-8 -right-8 w-full h-full rounded-[3rem] border-2 border-[#dfa668]/40 -z-10 hidden md:block"></div>
                     <div className="absolute -bottom-8 -left-8 z-20 glass-panel p-5 rounded-2xl shadow-xl max-w-[220px] hidden md:block border border-white/80">
                         <div className="flex items-center gap-2 mb-2">
-                            <span className="material-symbols-outlined text-primary filled" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+                            <span className="material-symbols-outlined text-[#dfa668] filled" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
                             <span className="font-bold text-accent-maroon font-serif text-lg">4.9/5 Rating</span>
                         </div>
                         <p className="text-xs text-text-light italic leading-tight">"The most beautiful venue we could have asked for! Truly a pink paradise."</p>

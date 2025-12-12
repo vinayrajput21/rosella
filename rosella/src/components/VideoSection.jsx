@@ -16,14 +16,14 @@ const VideoSection = () => {
                     ></div>
                     <div className="absolute inset-0 bg-accent-maroon/20 mix-blend-overlay"></div>
                     <div className="absolute inset-0 flex items-center justify-center z-10">
-                        <button className="relative flex items-center justify-center size-24 md:size-28 bg-white/10 backdrop-blur-md rounded-full border border-white/40 text-primary transition-transform duration-300 group-hover:scale-110 shadow-2xl">
+                        <button className="relative flex items-center justify-center size-24 md:size-28 bg-white/10 backdrop-blur-md rounded-full border border-white/40 text-[#dfa668] transition-transform duration-300 group-hover:scale-110 shadow-2xl">
                             <span className="material-symbols-outlined text-6xl md:text-7xl drop-shadow-md" style={{ fontVariationSettings: "'FILL' 1" }}>play_arrow</span>
-                            <div className="absolute inset-0 rounded-full border border-primary/50 animate-ping"></div>
+                            <div className="absolute inset-0 rounded-full border border-[#dfa668]/50 animate-ping"></div>
                         </button>
                     </div>
                     <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-background-dark via-background-dark/60 to-transparent text-left">
                         <div className="flex items-center gap-3">
-                            <div className="h-10 w-1 bg-primary rounded-full"></div>
+                            <div className="h-10 w-1 bg-[#dfa668] rounded-full"></div>
                             <div>
                                 <p className="text-white font-serif font-medium text-2xl">Virtual Tour</p>
                                 <p className="text-white/70 text-sm">The Royal Hall & Entry Lobby</p>

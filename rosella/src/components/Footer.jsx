@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="flex flex-col items-center md:items-start gap-4">
                         <div className="flex items-center gap-3">
                             <div className="size-10 bg-white/5 border border-white/10 rounded-full flex items-center justify-center">
-                                <span className="material-symbols-outlined text-lg text-primary">diamond</span>
+                                <span className="material-symbols-outlined text-lg text-[#dfa668]">diamond</span>
                             </div>
                             <span className="text-2xl font-serif font-bold tracking-tight">Rosella by SK</span>
                         </div>
@@ -18,7 +18,7 @@ const Footer = () => {
                     </div>
                     <div className="flex gap-8 text-sm text-white/60">
                         {['Privacy Policy', 'Terms of Service', 'Instagram', 'Facebook'].map((link) => (
-                            <a key={link} className="hover:text-primary transition-colors" href="#">{link}</a>
+                            <a key={link} className="hover:text-[#dfa668] transition-colors" href="#">{link}</a>
                         ))}
                     </div>
                 </div>
@@ -27,7 +27,7 @@ const Footer = () => {
                         &copy; 2024 Rosella by SK. All rights reserved.
                     </div>
                     <div>
-                        Designed with <span className="text-primary">♥</span> for luxury.
+                        Designed with <span className="text-[#dfa668]">♥</span> for luxury.
                     </div>
                 </div>
             </div>

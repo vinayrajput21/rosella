@@ -20,7 +20,7 @@ const Navbar = () => {
                         </a>
                     ))}
                 </div>
-                <button className="bg-gradient-to-r from-primary to-[#c48b4e] hover:to-primary text-white text-sm font-bold px-6 py-2 rounded-full transition-transform hover:scale-105 active:scale-95 shadow-gold-glow border border-white/20">
+                <button className="bg-gradient-to-r from-[#dfa668] to-[#c48b4e] hover:to-[#dfa668] text-white text-sm font-bold px-6 py-2 rounded-full transition-transform hover:scale-105 active:scale-95 shadow-gold-glow border border-white/20">
                     Book Now
                 </button>
             </div>
