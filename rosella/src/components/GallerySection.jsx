@@ -18,7 +18,7 @@ const GallerySection = () => {
                         <h2 className="text-4xl font-serif font-bold text-text-main">Captured Moments</h2>
                         <p className="text-text-light mt-2 max-w-md">Glimpses of real weddings and events at Rosella, where every corner is a photo opportunity.</p>
                     </div>
-                    <button className="text-accent-maroon font-semibold hover:text-secondary flex items-center gap-2 group border-b border-accent-maroon/30 pb-1 hover:border-accent-maroon transition-all">
+                    <button className="text-accent-maroon font-semibold hover:text-[#db2777] flex items-center gap-2 group border-b border-accent-maroon/30 pb-1 hover:border-accent-maroon transition-all">
                         View Full Gallery
                         <span className="material-symbols-outlined transition-transform group-hover:translate-x-1 text-xl">arrow_right_alt</span>
                     </button>
@@ -37,7 +37,7 @@ const GallerySection = () => {
                                 </div>
                             )}
                             {!item.label && (
-                                <div className="absolute inset-0 bg-secondary/10 mix-blend-color group-hover:bg-transparent transition-colors"></div>
+                                <div className="absolute inset-0 bg-[#db2777]/10 mix-blend-color group-hover:bg-transparent transition-colors"></div>
                             )}
                         </div>
                     ))}

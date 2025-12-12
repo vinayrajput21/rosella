@@ -4,7 +4,7 @@ import React from 'react';
 const HeroSection = () => {
     return (
         <section className="relative pt-10 pb-20 px-4" id="home">
-            <div className="absolute top-20 left-10 w-64 h-64 bg-secondary/10 rounded-full blur-3xl -z-10 animate-pulse"></div>
+            <div className="absolute top-20 left-10 w-64 h-64 bg-[#db2777]/10 rounded-full blur-3xl -z-10 animate-pulse"></div>
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#dfa668]/10 rounded-full blur-3xl -z-10"></div>
             <div className="layout-container max-w-[1200px] mx-auto">
                 <div className="relative rounded-2xl overflow-hidden min-h-[650px] flex items-end justify-start p-8 md:p-16 group shadow-2xl shadow-accent-maroon/20 border-4 border-white/30">

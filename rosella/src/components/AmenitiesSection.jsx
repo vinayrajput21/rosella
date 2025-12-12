@@ -20,7 +20,7 @@ const AmenitiesSection = () => {
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
                     {amenities.map((item, index) => (
-                        <div key={index} className="flex flex-col items-center p-8 bg-white rounded-t-full rounded-b-[3rem] text-center group hover:bg-secondary transition-colors duration-500 shadow-sm border border-secondary/10">
+                        <div key={index} className="flex flex-col items-center p-8 bg-white rounded-t-full rounded-b-[3rem] text-center group hover:bg-[#db2777] transition-colors duration-500 shadow-sm border border-[#db2777]/10">
                             <div className="bg-accent-rose p-4 rounded-full shadow-inner mb-4 group-hover:bg-white/20 transition-colors">
                                 <span className="material-symbols-outlined text-accent-maroon group-hover:text-white text-3xl">{item.icon}</span>
                             </div>

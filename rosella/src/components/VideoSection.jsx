@@ -5,7 +5,7 @@ const VideoSection = () => {
     return (
         <section className="py-12 px-4 relative">
             <div className="max-w-[1000px] mx-auto text-center relative z-10">
-                <span className="text-secondary text-sm font-bold uppercase tracking-widest mb-2 block font-display">Cinematic Experience</span>
+                <span className="text-[#db2777] text-sm font-bold uppercase tracking-widest mb-2 block font-display">Cinematic Experience</span>
                 <h2 className="text-3xl md:text-5xl font-serif font-bold text-text-main mb-10">Experience the Grandeur</h2>
                 <div className="relative aspect-video w-full rounded-[2rem] overflow-hidden shadow-glow group cursor-pointer bg-background-dark border-4 border-white/50">
                     {/* Video Thumbnail */}
