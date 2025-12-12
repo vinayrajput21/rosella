@@ -3,8 +3,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-background-dark text-white pt-16 pb-8 border-t border-white/5 relative overflow-hidden">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-accent-maroon/20 via-background-dark to-background-dark"></div>
+        <footer className="bg-[#2d0814] text-white pt-16 pb-8 border-t border-white/5 relative overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-accent-maroon/20 via-[#2d0814] to-[#2d0814]"></div>
             <div className="max-w-[1200px] mx-auto px-4 relative z-10">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-12">
                     <div className="flex flex-col items-center md:items-start gap-4">

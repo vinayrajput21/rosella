@@ -22,7 +22,7 @@ const ContactSection = () => {
                     <div className="space-y-6">
                         {contactInfo.map((info, index) => (
                             <div key={index} className="flex items-center gap-4 text-text-main group">
-                                <div className="size-10 rounded-full bg-background-light flex items-center justify-center group-hover:bg-[#dfa668] group-hover:text-white transition-colors">
+                                <div className="size-10 rounded-full bg-[#fff0f5] flex items-center justify-center group-hover:bg-[#dfa668] group-hover:text-white transition-colors">
                                     <span className="material-symbols-outlined text-[#db2777] group-hover:text-white">{info.icon}</span>
                                 </div>
                                 <span className="font-medium">{info.text}</span>

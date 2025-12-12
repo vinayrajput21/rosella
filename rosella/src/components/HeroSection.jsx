@@ -14,7 +14,7 @@ const HeroSection = () => {
                         data-alt="Luxury wedding banquet hall with grand chandeliers and floral decor"
                         style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBozXjjZZB_2M7NewBXLTUZpZyjGNL4iRYDr4rHK5e5gCraOAS3f3jeoHTAumho9eaZFuSaehXmHyprYdTYqj78QH91ZvEiXCpnrjyhnHGdNcKNbSrjUL8DVZ2MxpUYbA_G7YRV-hTKE6P6k2VwfXGXQw2zkD0BuVen3a0Kxm-YS7GXTO9Cj5AYfgn94WyqHmeroI8Jlwhpx2OSdXiWQZ0oPZ2JQMUzwGKY1KEDI7L8EMiwbq-Brk73gzHYHbyFgAeJ-qtXEAw1KQg")' }}
                     ></div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-background-dark/90 via-accent-maroon/40 to-transparent mix-blend-multiply"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#2d0814]/90 via-accent-maroon/40 to-transparent mix-blend-multiply"></div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/30"></div>
 
                     <div className="relative z-10 max-w-3xl text-white animate-fade-in-up">
