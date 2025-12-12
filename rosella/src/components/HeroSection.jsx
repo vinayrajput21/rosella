@@ -7,14 +7,14 @@ const HeroSection = () => {
             <div className="absolute top-20 left-10 w-64 h-64 bg-[#db2777]/10 rounded-full blur-3xl -z-10 animate-pulse"></div>
             <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#dfa668]/10 rounded-full blur-3xl -z-10"></div>
             <div className="layout-container max-w-[1200px] mx-auto">
-                <div className="relative rounded-2xl overflow-hidden min-h-[650px] flex items-end justify-start p-8 md:p-16 group shadow-2xl shadow-accent-maroon/20 border-4 border-white/30">
+                <div className="relative rounded-2xl overflow-hidden min-h-[650px] flex items-end justify-start p-8 md:p-16 group shadow-2xl shadow-[#9d174d]/20 border-4 border-white/30">
                     {/* Background Image */}
                     <div
                         className="absolute inset-0 bg-cover bg-center transition-transform duration-[2000ms] group-hover:scale-105"
                         data-alt="Luxury wedding banquet hall with grand chandeliers and floral decor"
                         style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBozXjjZZB_2M7NewBXLTUZpZyjGNL4iRYDr4rHK5e5gCraOAS3f3jeoHTAumho9eaZFuSaehXmHyprYdTYqj78QH91ZvEiXCpnrjyhnHGdNcKNbSrjUL8DVZ2MxpUYbA_G7YRV-hTKE6P6k2VwfXGXQw2zkD0BuVen3a0Kxm-YS7GXTO9Cj5AYfgn94WyqHmeroI8Jlwhpx2OSdXiWQZ0oPZ2JQMUzwGKY1KEDI7L8EMiwbq-Brk73gzHYHbyFgAeJ-qtXEAw1KQg")' }}
                     ></div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#2d0814]/90 via-accent-maroon/40 to-transparent mix-blend-multiply"></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#2d0814]/90 via-[#9d174d]/40 to-transparent mix-blend-multiply"></div>
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/30"></div>
 
                     <div className="relative z-10 max-w-3xl text-white animate-fade-in-up">

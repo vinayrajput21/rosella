@@ -15,10 +15,10 @@ const GallerySection = () => {
                 <div className="flex flex-col md:flex-row justify-between items-end mb-10 gap-4">
                     <div>
                         <span className="text-[#dfa668] text-sm font-bold uppercase tracking-widest mb-1 block">Visual Poetry</span>
-                        <h2 className="text-4xl font-serif font-bold text-text-main">Captured Moments</h2>
-                        <p className="text-text-light mt-2 max-w-md">Glimpses of real weddings and events at Rosella, where every corner is a photo opportunity.</p>
+                        <h2 className="text-4xl font-serif font-bold text-[#581c2f]">Captured Moments</h2>
+                        <p className="text-[#864559] mt-2 max-w-md">Glimpses of real weddings and events at Rosella, where every corner is a photo opportunity.</p>
                     </div>
-                    <button className="text-accent-maroon font-semibold hover:text-[#db2777] flex items-center gap-2 group border-b border-accent-maroon/30 pb-1 hover:border-accent-maroon transition-all">
+                    <button className="text-[#9d174d] font-semibold hover:text-[#db2777] flex items-center gap-2 group border-b border-[#9d174d]/30 pb-1 hover:border-[#9d174d] transition-all">
                         View Full Gallery
                         <span className="material-symbols-outlined transition-transform group-hover:translate-x-1 text-xl">arrow_right_alt</span>
                     </button>
@@ -32,7 +32,7 @@ const GallerySection = () => {
                                 style={{ backgroundImage: `url("${item.src}")` }}
                             ></div>
                             {item.label && (
-                                <div className="absolute inset-0 bg-gradient-to-t from-accent-maroon/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
+                                <div className="absolute inset-0 bg-gradient-to-t from-[#9d174d]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
                                     <p className="text-white font-serif text-2xl">{item.label}</p>
                                 </div>
                             )}

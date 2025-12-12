@@ -6,11 +6,11 @@ const Navbar = () => {
         <nav className="sticky top-4 z-50 mx-auto max-w-[1200px] px-4 w-full">
             <div className="glass-panel rounded-full px-6 py-3 flex items-center justify-between shadow-glow">
                 <div className="flex items-center gap-3">
-                    <div className="size-9 bg-gradient-to-br from-[#db2777] to-accent-maroon text-white rounded-full flex items-center justify-center shadow-lg border border-white/20">
+                    <div className="size-9 bg-gradient-to-br from-[#db2777] to-[#9d174d] text-white rounded-full flex items-center justify-center shadow-lg border border-white/20">
                         <span className="material-symbols-outlined text-xl">diamond</span>
                     </div>
-                    <span className="text-xl font-serif font-bold tracking-tight text-accent-maroon">
-                        Rosella <span className="text-xs font-sans font-normal text-text-light uppercase tracking-widest ml-1">by SK</span>
+                    <span className="text-xl font-serif font-bold tracking-tight text-[#9d174d]">
+                        Rosella <span className="text-xs font-sans font-normal text-[#864559] uppercase tracking-widest ml-1">by SK</span>
                     </span>
                 </div>
                 <div className="hidden md:flex items-center gap-8">

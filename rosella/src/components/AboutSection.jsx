@@ -15,11 +15,11 @@ const AboutSection = () => {
             <div className="absolute top-0 right-0 w-96 h-96 bg-[#dfa668]/5 rounded-full blur-3xl -z-10"></div>
             <div className="max-w-[1200px] mx-auto px-4 grid md:grid-cols-2 gap-16 items-center">
                 <div className="space-y-8">
-                    <h2 className="text-4xl md:text-6xl font-serif font-bold text-text-main leading-tight">
+                    <h2 className="text-4xl md:text-6xl font-serif font-bold text-[#581c2f] leading-tight">
                         Where Tradition Meets <br />
                         <span className="text-[#db2777] italic">Modern Luxury</span>
                     </h2>
-                    <p className="text-text-light text-lg leading-relaxed font-light">
+                    <p className="text-[#864559] text-lg leading-relaxed font-light">
                         Rosella by SK offers a blend of modern luxury and traditional hospitality. Immersed in shades of romance and royalty, our venue is designed to make your special day truly unforgettable with premium decor, bespoke floral arrangements, and world-class service right in the heart of Faridabad.
                     </p>
                     <div className="grid grid-cols-2 gap-5 mt-8">
@@ -28,8 +28,8 @@ const AboutSection = () => {
                                 <div className="text-[#db2777] mb-3 group-hover:scale-110 transition-transform origin-left">
                                     <span className="material-symbols-outlined text-4xl">{feature.icon}</span>
                                 </div>
-                                <h3 className="font-bold text-accent-maroon font-serif text-lg">{feature.title}</h3>
-                                <p className="text-sm text-text-light">{feature.subtitle}</p>
+                                <h3 className="font-bold text-[#9d174d] font-serif text-lg">{feature.title}</h3>
+                                <p className="text-sm text-[#864559]">{feature.subtitle}</p>
                             </div>
                         ))}
                     </div>
@@ -47,9 +47,9 @@ const AboutSection = () => {
                     <div className="absolute -bottom-8 -left-8 z-20 glass-panel p-5 rounded-2xl shadow-xl max-w-[220px] hidden md:block border border-white/80">
                         <div className="flex items-center gap-2 mb-2">
                             <span className="material-symbols-outlined text-[#dfa668] filled" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-                            <span className="font-bold text-accent-maroon font-serif text-lg">4.9/5 Rating</span>
+                            <span className="font-bold text-[#9d174d] font-serif text-lg">4.9/5 Rating</span>
                         </div>
-                        <p className="text-xs text-text-light italic leading-tight">"The most beautiful venue we could have asked for! Truly a pink paradise."</p>
+                        <p className="text-xs text-[#864559] italic leading-tight">"The most beautiful venue we could have asked for! Truly a pink paradise."</p>
                     </div>
                 </div>
             </div>

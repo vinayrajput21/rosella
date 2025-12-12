@@ -9,19 +9,19 @@ const contactInfo = [
 
 const ContactSection = () => {
     return (
-        <section className="py-20 px-4 relative overflow-hidden bg-accent-maroon">
+        <section className="py-20 px-4 relative overflow-hidden bg-[#9d174d]">
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-soft-light"></div>
-            <div className="absolute inset-0 bg-gradient-to-br from-accent-maroon to-[#db2777] opacity-90"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-[#9d174d] to-[#db2777] opacity-90"></div>
             <div className="absolute top-0 right-0 w-96 h-96 bg-[#dfa668]/30 rounded-full blur-3xl transform translate-x-1/3 -translate-y-1/3"></div>
-            <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent-rose/20 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2"></div>
+            <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#fce7f3]/20 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2"></div>
             <div className="max-w-[1000px] mx-auto relative z-10 flex flex-col md:flex-row bg-white rounded-[2.5rem] overflow-hidden shadow-2xl">
                 {/* Contact Info */}
                 <div className="p-12 md:w-1/2 flex flex-col justify-center bg-white">
-                    <h2 className="text-3xl font-serif font-bold text-accent-maroon mb-4">Start Planning Your <br /> Big Day</h2>
-                    <p className="text-text-light mb-10">Dates are filling up fast for the upcoming wedding season. Reach out to us to secure your preferred date in our royal hall.</p>
+                    <h2 className="text-3xl font-serif font-bold text-[#9d174d] mb-4">Start Planning Your <br /> Big Day</h2>
+                    <p className="text-[#864559] mb-10">Dates are filling up fast for the upcoming wedding season. Reach out to us to secure your preferred date in our royal hall.</p>
                     <div className="space-y-6">
                         {contactInfo.map((info, index) => (
-                            <div key={index} className="flex items-center gap-4 text-text-main group">
+                            <div key={index} className="flex items-center gap-4 text-[#581c2f] group">
                                 <div className="size-10 rounded-full bg-[#fff0f5] flex items-center justify-center group-hover:bg-[#dfa668] group-hover:text-white transition-colors">
                                     <span className="material-symbols-outlined text-[#db2777] group-hover:text-white">{info.icon}</span>
                                 </div>
